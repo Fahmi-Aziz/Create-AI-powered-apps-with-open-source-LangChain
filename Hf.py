@@ -6,7 +6,7 @@ from langchain.prompts import PromptTemplate
 import os
 from langchain_community.llms import HuggingFaceEndpoint
 
-os.environ["HUGGINGFACEHUB_API_TOKEN"] = "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"
+os.environ["HUGGINGFACEHUB_API_TOKEN"] = "YOUR HUGGINGFACE API KEY"
 llm = HuggingFaceEndpoint(repo_id="google/flan-ul2")
 text = "Beritahu fakta menarik tentang kentang!"
 result = llm.invoke(text)

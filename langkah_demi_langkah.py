@@ -4,7 +4,7 @@ import gradio as gr
 
 openai = ChatOpenAI(
     model_name="gpt-3.5-turbo",
-    openai_api_key="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"
+    openai_api_key="YOUR OPENAI API KEY"
 )
 
 # Mendefinisikan PromptTemplate sebagai format prompt untuk input dari user
